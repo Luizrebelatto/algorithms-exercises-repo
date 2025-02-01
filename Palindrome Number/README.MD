@@ -91,7 +91,7 @@ function reverseNumber(num) {
     return reversed
 }
 ```
-- now call the function reverseNumber inside isPalindrome and make the comparative
+- now call the function reverseNumber inside isPalindrome and make the comparative, and dont forget to make condition number less than 0 and last digit equal 0
 ```
 function reverseNumber(value) {
     let reversed = 0;
