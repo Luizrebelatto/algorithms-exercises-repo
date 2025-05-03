@@ -1,6 +1,8 @@
 #  217 Contains Duplicate - [Link exercise](https://leetcode.com/problems/contains-duplicate/description/)
 
----
+- Time complexity: O(n)
+- Space complexity: O(n)
+- RunTime: 19ms
 
 ## Result expected
 This code read an integer and verify if exist a number duplicate, if exist return true and if is not return false
