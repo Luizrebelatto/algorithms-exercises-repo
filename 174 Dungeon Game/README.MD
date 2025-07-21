@@ -44,8 +44,8 @@ for (j <- n - 2 to 0 by -1) {
  - `i` ->  line index in the last column
 ```scala
 for (i <- m - 2 to 0 by -1) {
-      dp(i)(n - 1) = math.max(1, dp(i + 1)(n - 1) - dungeon(i)(n - 1))
-    }
+  dp(i)(n - 1) = math.max(1, dp(i + 1)(n - 1) - dungeon(i)(n - 1))
+}
 ```
 
 6. Fill the rest of the DP table
